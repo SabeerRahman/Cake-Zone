@@ -1,0 +1,256 @@
+#my-btn
+{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  outline: none;
+  border: none;
+  z-index: 99;
+  background-color: #E88F2A;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  display: none;
+}
+#my-btn:hover
+{
+  background-color: #2B2825;
+}
+.cakezone-logo
+{
+  background-color: #E88F2A !important;
+}
+.nav-link:hover
+{
+  color: yellow !important;
+}
+.navigation-bar
+{
+  background-color: #2B2825 !important;
+}
+.custom-toggler
+{
+  background-color: #E88F2A !important;
+}
+.background-image
+{
+  background-image: url("hero.jpg");
+  height: 100vh;
+  background-position: 100% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.button-readmore
+{
+  background-color: #E88F2A !important;
+}
+.play-button
+{
+  background-color: white;
+  color: #E88F2A;
+  padding: 25px;
+  cursor: pointer;
+}
+/* About us Div */
+.about-us > h3
+{
+  color: #E88F2A;
+}
+.about-icons
+{
+  background-color: #E88F2A;
+  color: white;
+  border: 1px solid black;
+  padding: 25px;
+}
+.about-icons2
+{
+  background-color: #E88F2A;
+  color: white;
+  border: 1px solid black;
+  padding: 25px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+/* Stats Box */
+
+.bg-image
+{
+  background-image: url("bg.jpg");
+  height: 40vh;
+  background-size: cover;
+}
+.stats-icons
+{
+  background-color: #E88F2A;
+  color: white;
+  border: 1px solid black;
+  padding: 25px;
+}
+.stats-span
+{
+  color: #E88F2A;
+}
+.menu-class
+{
+  text-align: center;
+  color: #E88F2A;
+  font-weight: bolder;
+}
+.menu-box
+{
+  border: 1px solid black;
+  width: 30%;
+  background-color: #2B2825;
+  cursor: pointer;
+}
+.menu-box span:hover
+{
+  background-color: #E88F2A;
+  padding: 10px;
+}
+/* Menu & Pricing */
+.price-tag
+{
+  background-color: #2B2825;
+  color: #E88F2A;
+  font-weight: bold;
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+}
+.cake-img h4
+{
+  background-color: #2B2825;
+  color: #E88F2A;
+  
+}
+.cake-info
+{
+  border: 1px solid black;
+  background-color: #FAF3EB;
+}
+.discount-background
+{
+  background-image: url("bg.jpg");
+  height: 60vh;
+  margin-top: 10%;
+  background-size: cover;
+  background-position: center;
+}
+.birthday-info h4
+{
+  color: #2B2825;
+}
+.birthday-info
+{
+  border: 1px solid black;
+  background-color: #E88F2A;
+  position: relative;
+  top: -75px;
+  
+}
+.order-now-btn
+{
+  background-color: #E88F2A;
+  color: white;
+}
+.order-now-btn:hover
+{
+  color: black;
+}
+.chef-info
+{
+  background-color: #2B2825; 
+}
+.chef-img
+{
+  transition: filter 0.8s ease-in ;
+}
+.chef-img:hover
+{
+  filter: blur(5px);
+}
+.offer-bg-img
+{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("offer.jpg");
+  height: 75vh;
+  background-position: center;
+  background-size: cover;
+}
+.offer-info
+{
+  padding-top: 100px;
+}
+.footer-info
+{
+  background: #2B2825;
+}
+.cakezone-info
+{
+  background-color: #E88F2A;
+  text-align: center;
+  width: 400px !important;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -50px;
+}
+.social-media-btn
+{
+  background-color: #E88F2A;
+  color: white;
+  cursor: pointer;
+}
+.social-media-btn:hover
+{
+  color: black;
+}
+.quick-links a::before
+{
+  content: url("arrow-right-solid.svg");
+  padding-right: 10px;
+}
+
+@media all and (max-width:768px)
+{
+  .bg-image
+  {
+    height: 75vh;
+  }
+  .menu-box
+  {
+    width: 100%;
+    padding: 10px;
+  }
+  .birthday-info
+  {
+    
+    top: 0;
+    width: 200px !important;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+  }
+  .discount-background
+  {
+    height: auto;
+  }
+  .offer-info
+{
+  padding-top: 50px;
+}
+.footer-info
+{
+  height: auto;
+}
+.cakezone-info
+{
+  top: 0; 
+}
+}
+
